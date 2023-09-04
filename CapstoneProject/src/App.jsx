@@ -1,10 +1,13 @@
 import { useState } from "react";
+import React from "react";
 import "./App.css";
+import Header from "./Header.jsx";
 
 function App() {
   return (
     <div className="app">
-      <h1>My attempt at building an Amazon Store</h1>
+      <Header />
+      {/* Home */}
     </div>
   );
 }
